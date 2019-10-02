@@ -20,7 +20,7 @@ function calculateSum(){
 function sum(a, b){
     let sum = 0
 
-    for(i = a; i < b; i+=2){
+    for(i = a; i <= b; i++){
         sum += i
     }
 
